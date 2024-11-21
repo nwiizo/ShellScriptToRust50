@@ -1,0 +1,14 @@
+[package]
+name = "main"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# 日付時刻操作用のクレート
+chrono = "0.4"
+
+[dev-dependencies]
+# テスト用の一時ディレクトリ作成のためのクレート
+tempfile = "3.2"
+# テストでの文字列パターンマッチング用のクレート
+regex = "1.5"
